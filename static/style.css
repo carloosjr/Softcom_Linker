@@ -1,0 +1,113 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: #000000;
+  padding: 40px;
+  text-align: center;
+}
+#login-section, #content {
+  display: none;
+}
+#login-section.active, #content.active {
+  display: block;
+}
+.login-box {
+  font-family: 'Ubuntu', sans-serif;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgb(255, 255, 255);
+  max-width: 350px;
+  margin: auto;
+}
+.login-box input {
+  font-family: 'Ubuntu', sans-serif;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.login-box button {
+  font-family: 'Ubuntu', sans-serif;
+  width: 100%;
+  padding: 10px;
+  background-color: #f7a843;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+.login-logo {
+  margin-bottom: 10px;
+  font-family: 'Ubuntu' rgb(255, 255, 255), sans-serif;
+  font-size: 26px;
+  color: #ffffff;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+header img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff;
+}
+.search-box {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 20px auto;
+  max-width: 600px;
+}
+.search-box input {
+  font-family: 'Ubuntu', sans-serif;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ffd700;
+  border-radius: 8px;
+}
+.link-container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.link-box {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border: 2px solid #ffd700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.link-box:hover {
+  background-color: #fff8cc;
+  transform: translateY(-3px);
+}
+.link-box a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+}
